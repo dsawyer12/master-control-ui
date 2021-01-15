@@ -1,0 +1,46 @@
+.topPane {
+    -fx-background-color: linear-gradient(to bottom right, #494843, #ED773D);
+}
+
+.topInnerPane {
+    -fx-border-color: #999999;
+    -fx-border-width: 0 1 0 0;
+}
+
+.powerButton {
+    -fx-background-radius: 90;
+}
+
+.powerButton:selected {
+    -fx-background-color: #1ED760;
+}
+
+.center_pane {
+    -fx-border-color: #999999;
+    -fx-border-width: 0 1 0 0;
+    -fx-background-color: #494843;
+}
+
+.radio_button {
+    -fx-rotate: 180;
+}
+
+.radio_button:selected .radio .dot {
+    -fx-background-color: #ED773D;
+    -fx-background-insets: 0;
+}
+
+.slider .track {
+    -fx-control-inner-background: #DD501F;
+}
+
+.sub_label {
+    -fx-text-fill: #ED773D;
+}
+
+.connect_button {
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #DD501F;
+}
+
+
